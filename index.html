@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="css/style1.css">
+	<meta charset="UTF-8">
+	<title>AutoClean</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<div class="popup-bg hide" id="popup-bg">
+		<div class="popup">
+			<div class="formCaption">
+				<h2>Заказать звонок</h2>
+				<div class="popup_x" id="popup_x" onclick="popupToggle()">X</div>
+			</div>
+			<form>
+				<input type="text" placeholder="ФИО" required>
+				<input type="text" placeholder="Телефон" required>
+				<select required name="select">
+					<option value="">&nbsp;</option>
+					<option value="1">Быстрая мойка</option>
+					<option value="2">Трехфазная мойка</option>
+					<option value="3">Четерехфазная мойка</option>
+				</select>
+				<button>Записаться</button>
+			</form>
+		</div>
+	</div>
+	<div class="bg">
+		<header>
+			<div class="container ">
+				<div class="menu">
+					<div class="logo">
+						<a href="#">Auto<span>Clean</span></a>
+					</div>
+					<div class="contact_info">
+						<ul>
+							<li>
+								<a href="mailto:AutoClean@gmail.com">AutoClean@gmail.com</a>
+							</li>
+							<li>
+								<a href="tel:89999999999">8(999)999-99-99</a>
+							</li>
+						</ul>
+					</div>
+					<nav>
+						<ul>
+							<li>
+								<a href="#AboutUs">О нас</a>
+							</li>
+							<li>
+								<a href="#Services">Наши услуги</a>
+							</li>
+							<li>
+								<a href="#contacts">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+
+					<div class="social">
+						<a href="#">
+							<div class="vk"></div>
+						</a>
+						<a href="#">
+							<div class="inst"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section id="Main">
+			<div class="container">
+				<div class="MainText">
+					<h1>Auto<span>Clean</span></h1>
+					<p>Автомойка премиального класса</p>
+				</div>
+			</div>
+		</section>
+		
+	</div>
+	<section id="AboutUs">
+		<div class="container">
+			<h1>О нас</h1>
+			<hr>
+			<h2>Мы предоставляем услуги мойки уже более 5 лет, являясь лидерами нашего дела в России.
+				Только у нас мы индивидуально подходим к мойке каждого автомобиля. Мы всегда используем только
+				качественные материалы и следим за качеством оказываемых вам услуг. Только у нашего оборудования густая
+				пена, высокое давление, комплектующие европейского производства. Если вы хотели найти хорошую автомойку,
+				то Auto<span>Clean</span> - это то что вы искали. </h2>
+		</div>
+	</section>
+
+	<section id="Services">
+		<div class="container">
+			<h1>Услуги</h1>
+			<div class="Service_row">
+				<div class="Service_card">
+					<img src="img/gallery/Service1.png" alt="Быстрая мойка">
+					<h2 class="Service_name">Быстрая мойка</h2>
+					<p class="Service_description">Сбой грязи, снега, соли с кузова автомобиля</p>
+					<p class="Service_cost"><span>500 р</span></p>
+					<a class="btn_blue" onclick="popupToggle()">Записаться</a>
+				</div>
+				<div class="Service_card">
+					<img src="img/gallery/Service2.png" alt="Трехфазная мойка">
+					<h2 class="Service_name">Трехфазная мойка</h2>
+					<p class="Service_description">Детейлинг, мойка кузова и ковров</p>
+					<p class="Service_cost"><span>1500 р</span></p>
+					<a class="btn_blue" onclick="popupToggle()">Записаться</a>
+				</div>
+				<div class="Service_card">
+					<img src="img/gallery/Service3.png" alt="Четерехфазная мойка">
+					<h2 class="Service_name">Четерехфазная мойка</h2>
+					<p class="Service_description">Детейлинг, мойка кузова, ковров уборка салона, покрытие лаком</p>
+					<p class="Service_cost"><span>2000 р</span></p>
+					<a class="btn_blue" onclick="popupToggle()">Записаться</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="Sale">
+		<div class="container">
+			<h1>
+				Запишитесь на нашу автомойку прямо сейчас
+				и получите скидку на дополнительные услуги!
+			</h1>
+			<hr>
+			<div class="btn">
+				<a class="btn_white" onclick="popupToggle()">Записаться</a>
+			</div>
+		</div>
+	</section>
+
+	<section id="contacts">
+		<div class="container">
+			<h2>Контакты</h2>
+			<p>Санкт-Петербург</p>
+			<p><a href="tel:89999999999">+7(999) 999 99 99</a></p>
+			<p><a href="mailto:AutoClean@gmail.com">AutoClean@gmail.com</a></p>
+			<div class="Contacts_soc">
+				<a href="#">
+					<div class="vk_black"></div>
+				</a>
+				<a href="#">
+					<div class="inst_black"></div>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="footer_content">
+				<ul class="text-left">
+					<li>
+						<a class="what" href="#AboutUs">О нас</a>
+					</li>
+					<li>
+						<a href="#Services">Наши услуги</a>
+					</li>
+					<li>
+						<a href="#contacts">Контакты</a>
+					</li>
+				</ul>
+
+				<ul class="text-center">
+					<li>
+						<a href="#">Мы ВКонтакте</a>
+					</li>
+					<li>
+						<a href="#">Мы в Инстаграм</a>
+					</li>
+				</ul>
+
+				<ul class="text-right">
+					<li>
+						<a href="#Main">Auto<span>Clean</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
